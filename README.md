@@ -1,0 +1,2 @@
+# EasyOpenVROverlayForUnity
+OepnVRを用いたオーバーレイ表示の支援スクリプトです。
