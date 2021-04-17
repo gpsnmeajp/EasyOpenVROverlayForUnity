@@ -48,8 +48,8 @@ v0.1 公開
 2. Unityを立ち上げ、3Dプロジェクトを新規作成
 3. Pluginsフォルダを作り、そこに「openvr-1.16.8\bin\win64\openvr_api.dll」「openvr-1.16.8\headers\openvr_api.cs」を入れる
 4. OpenXRが有効なら切る
-5. 
-6. EasyOpenVROverlayForUnity.csをインポートします。  
+5. EasyOpenVROverlayForUnity.csをインポートします。  
+6. エラー箇所をコメントアウトする(後々直します)
 7. Assetsを右クリックし、Create→Render Texture。「New Render Texture」ができる。  
 8. HierarchyのMain Cameraの「Target Texture」に、「New Render Texture」をドラッグアンドドロップしてセット  
 9. Hierarchyを右クリックしてCreate Empty  
