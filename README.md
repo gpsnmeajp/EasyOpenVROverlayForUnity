@@ -43,7 +43,24 @@ v0.1 公開
 [VaNiiMenuみたいに空間タッチできるオーバーレイアプリケーションの作り方](https://qiita.com/gpsnmeajp/items/3b67223f7f11bb6d93c3)  
   
 ## 使い方  
-### Unityプロジェクトの準備  
+## Unity2020.3.3f1の場合
+1. [OpenVR SDK](https://github.com/ValveSoftware/openvr)をダウンロード
+2. Unityを立ち上げ、3Dプロジェクトを新規作成
+3. Pluginsフォルダを作り、そこに「openvr-1.16.8\bin\win64\openvr_api.dll」「openvr-1.16.8\headers\openvr_api.cs」を入れる
+4. OpenXRが有効なら切る
+5. 
+6. EasyOpenVROverlayForUnity.csをインポートします。  
+7. Assetsを右クリックし、Create→Render Texture。「New Render Texture」ができる。  
+8. HierarchyのMain Cameraの「Target Texture」に、「New Render Texture」をドラッグアンドドロップしてセット  
+9. Hierarchyを右クリックしてCreate Empty  
+10. 出来上がったGameObjectにEasyOpenVROverlayForUnityをドラッグアンドドロップ  
+11. GameObjectをクリック  
+12. EasyOpenVROverlayForUnityのRender Textureに「New Render Texture」をドラッグアンドドロップしてセット  
+
+
+以下古い手順  
+  
+### Unityプロジェクトの準備(Unity2018.2.5f1 Personal)  
 1. Unityを立ち上げ、3Dプロジェクトを新規作成します  
 2. Asset StoreからSteam VR Pluginをインポートします  
 3. SteamVR_Settingsが立ち上がるので、Accept All  
