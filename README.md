@@ -66,6 +66,8 @@ v0.1 公開
 3. SteamVR_Settingsが立ち上がるので、Accept All  
 4. Edit→Project Settings→Playerを開き、Inspectorの下のXR SettingsからVirtual Reality Supportedをオフに  
 5. Edit→Preferencesを開き、SteamVRのAutomativally Enable VRをオフに  
+![](https://github.com/gpsnmeajp/EasyOpenVROverlayForUnity/blob/main/OpenVRoff.png?raw=true)
+
 6. EasyOpenVROverlayForUnity.csをインポートします。  
 7. Assetsを右クリックし、Create→Render Texture。「New Render Texture」ができる。  
 8. HierarchyのMain Cameraの「Target Texture」に、「New Render Texture」をドラッグアンドドロップしてセット  
